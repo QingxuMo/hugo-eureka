@@ -9,7 +9,7 @@
         el: '#waline',
         visitor: true,
         highlight: true,
-        serverURL: '{{ .Site.Params.comment.waline.serverURL }}',
+        serverURL: {{ .Site.Params.comment.waline.serverURL }},
         placeholder: '\n「毕竟几人真得鹿，不知终日梦为鱼」',
         requiredFields: ['mail'],
         avatar: 'mp',
